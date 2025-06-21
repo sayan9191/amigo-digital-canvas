@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Megaphone, Globe, Palette, TrendingUp, Zap, PenTool } from 'lucide-react';
+import { Megaphone, Globe, Palette, TrendingUp, Zap, PenTool, ShoppingCart } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
 const Services = () => {
@@ -23,10 +23,22 @@ const Services = () => {
       description: "We build professional, mobile-responsive websites designed to convert",
       features: [
         "Complete Website Design",
-        "Business & E-commerce Web Design (WordPress, Shopify)",
+        "Business Web Design (WordPress)",
         "Sales Funnel Marketing",
-        "E-commerce Management",
-        "YouTube Monetization"
+        "YouTube Monetization",
+        "Website Management & Maintenance"
+      ]
+    },
+    {
+      icon: ShoppingCart,
+      title: "E-commerce Management",
+      description: "Complete e-commerce solutions to grow your online business",
+      features: [
+        "E-commerce Website Development (Shopify)",
+        "Online Store Management",
+        "Product Listing & Optimization",
+        "Payment Gateway Integration",
+        "Order Management & Support"
       ]
     },
     {
@@ -126,6 +138,30 @@ const Services = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* Timely Delivery and Ongoing Support section */}
+        <div className="mt-16 grid md:grid-cols-2 gap-8">
+          <Card className="bg-gradient-to-r from-primary to-primary-light text-white border-0 shadow-lg">
+            <CardContent className="p-6 text-center">
+              <h4 className="text-xl font-bold mb-4">Timely Delivery</h4>
+              <p className="text-white/90">
+                We ensure all projects are completed on time with the highest quality standards
+              </p>
+            </CardContent>
+          </Card>
+          
+          <Card className="bg-white border border-gray-200 shadow-lg">
+            <CardContent className="p-6 text-center">
+              <h4 className="text-xl font-bold text-gray-900 mb-4">Ongoing Support</h4>
+              <p className="text-gray-600 mb-2">
+                Continuous assistance even after project completion
+              </p>
+              <p className="text-xs text-gray-500">
+                May charges applied (T & C)
+              </p>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </section>

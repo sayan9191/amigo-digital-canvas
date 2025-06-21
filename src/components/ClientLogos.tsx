@@ -19,7 +19,7 @@ const ClientLogos = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 animate-fade-in">
-            Our Happy Clients
+            Welcome to Marketing Amigo
           </h2>
           <p className="text-lg text-white/90 animate-fade-in" style={{ animationDelay: '0.2s' }}>
             Trusted by businesses across various industries
@@ -60,15 +60,9 @@ const ClientLogos = () => {
         </div>
 
         <div className="text-center mt-12">
-          <div className="grid md:grid-cols-2 gap-8 text-white max-w-2xl mx-auto">
-            <div className="animate-fade-in" style={{ animationDelay: '0.4s' }}>
-              <h3 className="text-2xl font-bold">100+</h3>
-              <p className="text-white/90">Projects Delivered</p>
-            </div>
-            <div className="animate-fade-in" style={{ animationDelay: '0.6s' }}>
-              <h3 className="text-2xl font-bold">20+</h3>
-              <p className="text-white/90">Team Members</p>
-            </div>
+          <div className="animate-fade-in" style={{ animationDelay: '0.4s' }}>
+            <h3 className="text-2xl font-bold text-white">100+</h3>
+            <p className="text-white/90">Projects Delivered</p>
           </div>
         </div>
       </div>
