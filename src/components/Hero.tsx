@@ -49,7 +49,7 @@ const Hero = () => {
               <DialogTrigger asChild>
                 <Button 
                   size="lg" 
-                  className="bg-white text-primary hover:bg-gray-100 text-lg px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover-scale"
+                  className="bg-white text-primary hover:bg-gray-100 text-lg px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover-scale w-full sm:w-auto"
                 >
                   Let's Build Success Together
                   <ArrowRight className="ml-2" size={20} />
@@ -66,7 +66,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-2 border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4 rounded-full backdrop-blur-sm transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+              className="border-2 border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4 rounded-full backdrop-blur-sm transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl w-full sm:w-auto"
               onClick={() => window.open('https://wa.me/7001510950', '_blank')}
             >
               <MessageCircle className="mr-2 w-6 h-6" size={20} />

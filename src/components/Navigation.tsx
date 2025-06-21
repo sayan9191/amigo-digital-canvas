@@ -13,7 +13,8 @@ const Navigation = () => {
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
     { name: 'Portfolio', href: '#portfolio' },
-    { name: 'Contact', href: '#contact' }
+    { name: 'Contact Us', href: '#contact' },
+    { name: 'Career', href: 'mailto:marketingamigo.contact@gmail.com?subject=Career Inquiry' }
   ];
 
   return (

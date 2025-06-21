@@ -25,7 +25,7 @@ const Services = () => {
         "Complete Website Design",
         "Business & E-commerce Web Design (WordPress, Shopify)",
         "Sales Funnel Marketing",
-        "E-commerce Marketing (Amazon, Flipkart, Meesho)",
+        "E-commerce Management",
         "YouTube Monetization"
       ]
     },

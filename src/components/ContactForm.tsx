@@ -64,12 +64,13 @@ const ContactForm = () => {
           />
         </div>
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">Phone</label>
+          <label className="block text-sm font-medium text-gray-700 mb-2">Phone *</label>
           <input 
             type="tel" 
             name="phone"
             value={formData.phone}
             onChange={handleChange}
+            required
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary transition-all duration-200"
           />
         </div>

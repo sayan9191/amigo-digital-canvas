@@ -110,7 +110,7 @@ const Contact = () => {
                 <label className="block text-sm font-medium text-gray-700 mb-2">Email</label>
                 <input 
                   type="email" 
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full px-3 py-2 border border-gray-300 rounde-md focus:outline-none focus:ring-2 focus:ring-primary"
                 />
               </div>
               <div>
@@ -123,6 +123,9 @@ const Contact = () => {
               <Button className="w-full bg-gradient-to-r from-primary to-primary-light hover:from-primary-light hover:to-primary">
                 Send Message
               </Button>
+              <p className="text-xs text-gray-500 text-center mt-2">
+                *Terms and conditions may apply
+              </p>
             </CardContent>
           </Card>
         </div>
@@ -141,6 +144,16 @@ const Contact = () => {
                 <social.icon className="w-6 h-6 text-white" />
               </a>
             ))}
+            <a
+              href="https://g.co/kgs/f4h7ncf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/30 transition-colors"
+            >
+              <div className="w-6 h-6 bg-white rounded-sm flex items-center justify-center">
+                <span className="text-xs font-bold text-primary">G</span>
+              </div>
+            </a>
           </div>
         </div>
       </div>
