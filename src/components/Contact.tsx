@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Phone, Mail, MapPin, Facebook, Linkedin, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -82,6 +81,18 @@ const Contact = () => {
                 </CardContent>
               </Card>
             ))}
+            
+            <Card className="bg-white/95 backdrop-blur-sm border-0 shadow-lg">
+              <CardContent className="p-6">
+                <h4 className="font-semibold text-gray-900 mb-4">Ongoing Support</h4>
+                <p className="text-gray-600">
+                  Continuous assistance even after project completion
+                </p>
+                <p className="text-xs text-gray-500 mt-2">
+                  May charges applied (T & C)
+                </p>
+              </CardContent>
+            </Card>
           </div>
 
           <Card className="bg-white/95 backdrop-blur-sm border-0 shadow-lg">

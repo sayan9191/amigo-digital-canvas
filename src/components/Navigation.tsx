@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -14,7 +13,7 @@ const Navigation = () => {
     { name: 'Services', href: '#services' },
     { name: 'Portfolio', href: '#portfolio' },
     { name: 'Contact Us', href: '#contact' },
-    { name: 'Career', href: 'mailto:marketingamigo.contact@gmail.com?subject=Career Inquiry' }
+    { name: 'Career', href: 'mailto:marketingamigo.contact@gmail.com?subject=Career%20Inquiry&body=Hello%20Marketing%20Amigo%20Team,%0A%0AI%20am%20interested%20in%20career%20opportunities%20with%20your%20company.%0A%0APlease%20find%20my%20details%20below:%0A%0AName:%20%0APhone:%20%0AExperience:%20%0A%0AThank%20you!' }
   ];
 
   return (
